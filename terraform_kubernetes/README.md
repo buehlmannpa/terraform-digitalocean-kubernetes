@@ -39,7 +39,7 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_do_token"></a> [digitalocean\_do_token](#input\_digitalocean\_do_token) | Digital Ocean Token to authenticate against the Digital Ocean cli-tool | `string` | n/a | yes |
-| <a name="input_region"></a> [digitalocean\_region](#input\_digitalocean\_region) | VPC regiion where the componentes where deployed | `string` | `"fra1"` | yes |
+| <a name="input_region"></a> [digitalocean\_region](#input\_digitalocean\_region) | VPC region where the components where deployed | `string` | `"fra1"` | yes |
 | <a name="input_clustername"></a> [digitalocean\_clustername](#input\_digitalocean\_clustername) | Name of the kubernetes cluster | `string` | `"k8s-cluter-c1-fra1-1227"` | no |
 | <a name="input_nodepoolname"></a> [digitalocean\_nodepoolname](#input\_digitalocean\_nodepoolname) | Name of the kubernetes node pool | `string` | `"k8s-nodepool-c1-fra1"` | no |
 | <a name="input_autoscale_nodepoolname"></a> [digitalocean\_autoscale_nodepoolname](#input\_digitalocean\_autoscale_nodepoolname) | Name of the kubernetes node pool | `string` | `"k8s-autoscale-nodepool-c1-fra1"` | no |

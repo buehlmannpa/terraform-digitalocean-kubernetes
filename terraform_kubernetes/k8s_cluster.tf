@@ -12,7 +12,7 @@ resource "digitalocean_kubernetes_cluster" "k8s_cluster_c1" {
     size       = "s-2vcpu-2gb"
     auto_scale = true
     min_nodes  = 1
-    max_nodes  = 10
+    max_nodes  = 4
     node_count = 3
 
     tags = ["kubernetes", "nodes"]
